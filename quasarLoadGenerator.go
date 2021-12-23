@@ -594,7 +594,7 @@ func main() {
 	
 	/* Read the configuration file. */
 	
-	configfile, err := ioutil.ReadFile("loadConfig.ini")
+	configfile, err := ioutil.ReadFile("loadConfig-new1.ini")
 	if err != nil {
 		fmt.Printf("Could not read loadConfig.ini: %v\n", err)
 		return
@@ -735,10 +735,10 @@ func main() {
 		os.Exit(1)
 	}
 	fmt.Printf("Using UUIDs ")
-	for j = 0; j < NUM_STREAMS; j++ {
-		fmt.Printf("%s ", uuid.UUID(uuids[j]).String())
-	}
-	fmt.Printf("\n")
+	// for j = 0; j < NUM_STREAMS; j++ {
+	fmt.Printf("%s ", uuid.UUID(uuids[0]).String())
+	// }
+	// fmt.Printf("\n")
 	
 	runtime.GOMAXPROCS(runtime.NumCPU())
 	var connections [][]net.Conn = make([][]net.Conn, NUM_SERVERS)

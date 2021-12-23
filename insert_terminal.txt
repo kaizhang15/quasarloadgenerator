@@ -1,0 +1,601 @@
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000050001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 392393791 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+392393791
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Could not connect to database: dial tcp 127.0.0.1:4410: connect: connection refused
+exit status 1
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Sent 48622592, Received 44914688
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 12817408, Received 16525312
+Finished
+Total time: 2132807873 nanoseconds for 61440000 points
+Average: 34 nanoseconds per point (floored to integer value)
+2132807873
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ python generate-loadconfig.py 50001 60000
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000050001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 398535193 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+398535193
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Sent 2048, Received 2048
+Finished
+Total time: 4360809 nanoseconds for 2048 points
+Average: 2129 nanoseconds per point (floored to integer value)
+4360809
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 2048, Received 2048
+Finished
+Total time: 4091290 nanoseconds for 2048 points
+Average: 1997 nanoseconds per point (floored to integer value)
+4091290
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Sent 2048, Received 2048
+Finished
+Total time: 4600106 nanoseconds for 2048 points
+Average: 2246 nanoseconds per point (floored to integer value)
+4600106
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 1024000, Received 1024000
+Finished
+Total time: 71949878 nanoseconds for 1024000 points
+Average: 70 nanoseconds per point (floored to integer value)
+71949878
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 1024000, Received 1024000
+Finished
+Total time: 53907415 nanoseconds for 1024000 points
+Average: 52 nanoseconds per point (floored to integer value)
+53907415
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 343352111 nanoseconds for 10240000 points
+Average: 33 nanoseconds per point (floored to integer value)
+343352111
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240, Received 10240
+Finished
+Total time: 4970950 nanoseconds for 10240 points
+Average: 485 nanoseconds per point (floored to integer value)
+4970950
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000010001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Sent 20480, Received 20480
+Finished
+Total time: 5275413 nanoseconds for 20480 points
+Average: 257 nanoseconds per point (floored to integer value)
+5275413
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -q 
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Query mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000010001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 320, Received 320
+Finished
+Total time: 3098435 nanoseconds for 20480 points
+Average: 151 nanoseconds per point (floored to integer value)
+3098435
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #1-10000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000000001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 392059264 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+392059264
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #20000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000010001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 376769041 nanoseconds for 10240000 points
+Average: 36 nanoseconds per point (floored to integer value)
+376769041
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #30000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000020001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 290361457 nanoseconds for 10240000 points
+Average: 28 nanoseconds per point (floored to integer value)
+290361457
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #40000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000030001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 396166822 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+396166822
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #50000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000040001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 381467808 nanoseconds for 10240000 points
+Average: 37 nanoseconds per point (floored to integer value)
+381467808
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #60000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000050001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 351392870 nanoseconds for 10240000 points
+Average: 34 nanoseconds per point (floored to integer value)
+351392870
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #70000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000060001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 371743073 nanoseconds for 10240000 points
+Average: 36 nanoseconds per point (floored to integer value)
+371743073
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #80000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000070001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 365615682 nanoseconds for 10240000 points
+Average: 35 nanoseconds per point (floored to integer value)
+365615682
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #90000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000080001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 411651290 nanoseconds for 10240000 points
+Average: 40 nanoseconds per point (floored to integer value)
+411651290
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #100000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000090001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 263595854 nanoseconds for 10240000 points
+Average: 25 nanoseconds per point (floored to integer value)
+263595854
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #110000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000100001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 277324698 nanoseconds for 10240000 points
+Average: 27 nanoseconds per point (floored to integer value)
+277324698
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #120000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000110001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 269603691 nanoseconds for 10240000 points
+Average: 26 nanoseconds per point (floored to integer value)
+269603691
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #130000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000120001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 258274379 nanoseconds for 10240000 points
+Average: 25 nanoseconds per point (floored to integer value)
+258274379
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #140000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000130001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 416147810 nanoseconds for 10240000 points
+Average: 40 nanoseconds per point (floored to integer value)
+416147810
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #150000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000140001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 255036481 nanoseconds for 10240000 points
+Average: 24 nanoseconds per point (floored to integer value)
+255036481
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #160000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000150001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 252541548 nanoseconds for 10240000 points
+Average: 24 nanoseconds per point (floored to integer value)
+252541548
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #170000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000160001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 391284921 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+391284921
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #180000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000170001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 274236570 nanoseconds for 10240000 points
+Average: 26 nanoseconds per point (floored to integer value)
+274236570
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #190000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000180001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 2 to server localhost:4410
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 394007897 nanoseconds for 10240000 points
+Average: 38 nanoseconds per point (floored to integer value)
+394007897
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ go run quasarLoadGenerator.go -i #200000
+# github.com/SoftwareDefinedBuildings/btrdb/internal/cephprovider
+cephprovider.c:233:15: warning: implicit declaration of function 'time' is invalid in C99 [-Wimplicit-function-declaration]
+Insert mode
+Using UUIDs 9f67541c-95ee-11e4-a7ac-000000190001 Creating connections to localhost:4410...
+Created connection 0 to localhost:4410
+Created connection 1 to localhost:4410
+Created connection 2 to localhost:4410
+Finished creating connections
+Finished generating insert/query order
+Closed connection 0 to server localhost:4410
+Closed connection 1 to server localhost:4410
+Closed connection 2 to server localhost:4410
+Sent 10240000, Received 10240000
+Finished
+Total time: 265150278 nanoseconds for 10240000 points
+Average: 25 nanoseconds per point (floored to integer value)
+265150278
+(base) kenny@kenny-Legion-C530-19ICB:~/code/quasarloadgenerator$ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTAINER ID   NAME      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O          BLOCK I/O        PIDS
+9a551fd1019c   mongo     0.82%     119.1MiB / 31.27GiB   0.37%     111MB / 65.4MB   180kB / 66.2MB   21
+673964b9b3ef   btrdb     0.15%     21.5GiB / 31.27GiB    68.74%    3.42GB / 146MB   1.04MB / 0B      93
